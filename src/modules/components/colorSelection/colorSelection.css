@@ -1,0 +1,25 @@
+.color_circle{
+    height: 50px;
+    width: 50px;
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.radiant_red {
+    background: linear-gradient(135deg, rgb(228, 26, 44) 24%, rgb(163, 2, 14) 62%, rgb(228, 26, 44) 62%, rgb(228, 26, 44) 62%, rgb(228, 26, 44) 100%);
+  }
+  
+  .techno_blue {
+    background: linear-gradient(135deg, rgb(0, 117, 217) 24%, rgb(0, 53, 192) 62%, rgb(0, 117, 217) 62%, rgb(0, 117, 217) 62%, rgb(0, 117, 217) 100%);
+  }
+  
+  .black {
+    background: linear-gradient(135deg, rgb(48, 48, 48) 24%, rgb(26, 26, 27) 62%, rgb(48, 48, 48) 62%, rgb(48, 48, 48) 62%, rgb(48, 48, 48) 100%);
+  }
+ 
+  input[type="radio"]:checked+label{
+    border: 5px solid#ee7600;
+  }
+  input[type="radio"]:checked+label+div{
+    color:#ee7600;
+  }
