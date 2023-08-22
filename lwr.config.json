@@ -28,7 +28,7 @@
         },
         {
             "alias": "favicon",
-            "file": "$rootDir/src/assets/favicon.ico",
+            "file": "$rootDir/src/favicon.ico",
             "urlPath": "/favicon.ico"
         }
     ]
