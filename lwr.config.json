@@ -25,6 +25,11 @@
             "alias": "assetsDir",
             "dir": "$rootDir/src/assets",
             "urlPath": "/public/assets"
+        },
+        {
+            "alias": "favicon",
+            "file": "$rootDir/src/assets/favicon.ico",
+            "urlPath": "/favicon.ico"
         }
     ]
 }
